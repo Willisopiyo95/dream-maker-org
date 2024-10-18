@@ -300,7 +300,7 @@ section {
 
 .heading-title {
     font-size: 14px;
-    display: block;
+    display: inline;
     text-transform: uppercase;
     font-weight: bold;
     color: #cf8a3f;
