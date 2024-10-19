@@ -228,7 +228,7 @@ button {
 }
 
 .bottom45 {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .top50 {
@@ -300,7 +300,7 @@ section {
 
 .heading-title {
     font-size: 14px;
-    display: inline;
+    display: block;
     text-transform: uppercase;
     font-weight: bold;
     color: #cf8a3f;
@@ -859,6 +859,20 @@ ul.social.dark li a:focus {
 .intro-text.center .heading-title::before {
     display: block;
     margin: 0 auto 1.125rem;
+}
+
+.description {
+    line-height: 1.6;
+    /* Line spacing for readability */
+    color: #979797;
+    /* Slightly lighter color for the description */
+    max-width: 800px;
+    /* Limit the width of the text */
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
 }
 
 
