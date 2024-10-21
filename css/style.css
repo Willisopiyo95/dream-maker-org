@@ -4166,6 +4166,28 @@ ul.top-right li a:hover.instagram {
 
 /*-------------------------------*/
 
+#services .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .icon_box {
+    text-align: center;
+}
+
+#services .col-md-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    #services .col-md-3 {
+        max-width: 100%;
+    }
+}
+
 
 /*Services ends*/
 
