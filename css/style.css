@@ -864,15 +864,20 @@ ul.social.dark li a:focus {
 .description {
     line-height: 1.6;
     /* Line spacing for readability */
-    color: #979797;
+    color: #414141;
     /* Slightly lighter color for the description */
-    max-width: 800px;
+    max-width: 1900px;
     /* Limit the width of the text */
     margin: 0;
     font-size: 30px;
     font-family: 'Open Sans';
     /* text-transform: uppercase; */
     /* font-weight: bold; */
+}
+.description2{
+    max-width: 1900px;
+    
+
 }
 
 
